@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    width: 95%;
+    height: 1200px;
+}
+
+#title{
+    font-size: 30px;
+    color: rgb(25, 25, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    text-align: center;
+    text-shadow: 1px 5px 5px green;
+}
+
+#description{
+    font-size: 18px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#survey-form{
+    background-color: rgb(32, 75, 32);
+    border-radius: 2%;
+    box-shadow: 2px 15px 15px rgb(18,18,58);
+    width: 45%;
+    height: 1000px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+#name-label ,#email-label, #number-label{
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#name-label{
+   padding-top: 40px;
+}
+
+#email-label{
+    margin-top: 20px;
+}
+
+#number-label{
+    margin-top: 20px;
+}
+
+#name,#email,#number{
+    margin-top: 10px;
+    width: 90%;
+    margin-left:30px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 2%;
+    box-shadow: 1px 2px 2px rgb(18,18,58);
+   
+}
+
+p{
+    font-size: 25px;
+    width: 100%;
+    margin-left: 30px;
+    font-weight: bold;
+    line-height: 0.8;
+}
+
+#dropdown{
+    margin-left: 30px;
+    width: 90%;
+    height: 50px;
+    border-radius: 2%;
+    box-shadow: 1px 2px 2px rgb(18,18,58);
+}
+#dropdown >option{
+    text-align: center;
+}
+
+#role,#known{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.lb{
+    font-size: 20px;
+    opacity: 0.8;
+    padding-left: 10px;
+}
+
+#feedback{
+    margin-left: 30px;
+    display: block;
+    width: 80%;
+
+}
+
+
+#submit{
+    width:98%;
+    margin-left:1% ;
+    margin-top:30px;
+    height: 35px;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1200px) {
+    #survey-form{
+      width: 50%;
+      height: 1020px;
+      margin-left: 25%;
+      }
+}
+@media screen and (max-width:1000px) {
+    #survey-form{
+      width: 60%;
+      height: 1020px;
+      margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #survey-form{
+        background-color: rgb(32, 75, 32);
+        border-radius: 1%;
+        box-shadow: 2px 15px 15px rgb(18,18,58);
+        width: 60%;
+        height: 1050px;
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+    #name-label ,#email-label, #number-label{
+        font-size: 25px;
+        width: 100%;
+        display: block;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 25px;
+        width: 100%;
+        margin-left: 15px;
+        font-weight: bold;
+        line-height: 0.8;
+    }
+
+    #name,#email,#number{
+        margin-top: 10px;
+        width: 90%;
+        margin-left:15px;
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 2%;
+        box-shadow: 1px 2px 2px rgb(18,18,58);
+       
+    }
+
+    #dropdown{
+        margin-left: 15px;
+        width: 90%;
+        height: 50px;
+        border-radius: 2%;
+        box-shadow: 1px 2px 2px rgb(18,18,58);
+    }
+    #dropdown >option{
+        text-align: center;
+    }
+    
+    #role,#known{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    #feedback{
+        margin-left: 15px;
+        display: block;
+        width: 80%;
+    
+    }
+    
+    
+    
+    
+    }
+
+@media screen and (max-width:600px) {
+    #survey-form{
+           width: 80%;
+           margin-left: 12%;
+    }
+    
+}
+

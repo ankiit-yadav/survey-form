@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+    <title>Survey Form</title>
+
+    <link href="styles.css" type="text/css"  rel="stylesheet"/>
+
+  </head>
+
+  <body>
+
+    <h1 id="title">Survey Form</h1>
+
+    <p id="description">Its is generally a demo survey form.This is intended to be a test of your learning and understanding.</p>
+
+    <form id="survey-form">
+
+        <label for="name" id="name-label">Name :</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"/>
+
+        <label for="email" id="email-label">Email :</label>
+            <input type="email" id="email"  name="email" placeholder="Enter your email">
+      
+        <label for="number" id="number-label">Phone number :</label>
+            <input type="number" id="number"  name="number" placeholder="Enter your Phone number" min="111111111" max="9999999999">
+
+        <p>Which option best desribes your current role:</p>  
+        <select id="dropdown">
+            <option>Select Current Role</option>
+            <option>Student</option>
+            <option>Full time Job</option>
+            <option>Full Time Learner</option>
+            <option>Orther</option>
+        </select>
+        
+       
+        <p>Which one is you?</p> 
+
+       <input type="radio" name="role" id="role" value="1">
+            <label class="lb" for="role">Fast learner</label>
+        </input><br>  
+
+        <input type="radio" name="role" id="role" value="2">
+            <label class="lb" for="role">Slow learner</label>        
+        </input><br>    
+            
+        
+        <p>Which of these are you familiar with?</p> 
+
+        <input type="checkbox" name="known" id="known" value="1">
+                <label class="lb" for="known">HTML5</label></input><br>
+     
+        <input type="checkbox" name="known" id="known" value="2"></input>
+                <label class="lb" for="known">CSS</label><br> 
+
+        <input type="checkbox" name="known" id="known" value="3"></input>
+            <label class="lb" for="known">JavaSrcipt</label><br> 
+
+        <input type="checkbox" name="known" id="known" value="2"></input>
+            <label class="lb" for="known">Bootstrap</label> <br>
+        
+        <p>Share your Feedback :</p>    
+        <textarea title="Share your Feedback" id="feedback" rows="8" cols="50" required></textarea> 
+        
+        <button type="button" id="submit">SUBMIT</button>
+        
+    </form>
+
+  </body> 
+
+</html>  
