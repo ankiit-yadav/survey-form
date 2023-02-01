@@ -1,34 +1,45 @@
 body{
     margin: 0px;
     width: 95%;
-    height: 1200px;
+    background-color: lightblue;
 }
 
+.container{
+    height: 1350px;
+}
+
+#input_area{
+    display: inline-block;
+}
 #title{
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(25, 25, 70);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
     text-align: center;
-    text-shadow: 1px 5px 5px green;
+    text-shadow: 1px 5px 5px white;
 }
 
 #description{
     font-size: 18px;
     color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    opacity: 0.8;
+    opacity: 0.9;
     text-align: center;
 }
 
 #survey-form{
-    background-color: rgb(32, 75, 32);
     border-radius: 2%;
     box-shadow: 2px 15px 15px rgb(18,18,58);
-    width: 45%;
-    height: 1000px;
+    width: 60%;
+    height: 1050px;
     margin-left: 30%;
-    margin-top: 50px;
+    margin-top: 40px;
+    line-height: 1.2;
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 #name-label ,#email-label, #number-label{
@@ -36,7 +47,7 @@ body{
     width: 100%;
     display: block;
     margin-left: 30px;
-    font-weight: bold;
+
 }
 
 #name-label{
@@ -66,7 +77,7 @@ p{
     font-size: 25px;
     width: 100%;
     margin-left: 30px;
-    font-weight: bold;
+  
     line-height: 0.8;
 }
 
@@ -96,18 +107,34 @@ p{
     margin-left: 30px;
     display: block;
     width: 80%;
-
+    height: auto;
 }
 
 
 #submit{
-    width:98%;
-    margin-left:1% ;
+    margin-left:50% ;
     margin-top:30px;
     height: 35px;
     font-weight: bold;
     color: darkgreen;
     font-size: 15px;
+    display:block ;
+}
+
+#foot{
+    text-align: center; 
+    background-color:#1E90FF; 
+    width:105%;
+    margin-top: 60px;
+    height: auto;
+    margin-left: 0.1%;
+
+}
+
+#divsub{
+    display: inline-block; 
+    margin-top: -15px;
+    margin-left: 270px;
 }
 
 @media screen and (max-width:1200px) {
@@ -127,27 +154,32 @@ p{
 
 @media screen and (max-width:800px) {
     #survey-form{
-        background-color: rgb(32, 75, 32);
         border-radius: 1%;
         box-shadow: 2px 15px 15px rgb(18,18,58);
         width: 60%;
-        height: 1050px;
+        height: 1070px;
         margin-left: 20%;
         margin-top: 50px;
+
     }
     #name-label ,#email-label, #number-label{
         font-size: 25px;
         width: 100%;
         display: block;
         margin-left: 15px;
-        font-weight: bold;
-    }
+        line-height: 1.1;
+      }
     p{
         font-size: 25px;
         width: 100%;
         margin-left: 15px;
-        font-weight: bold;
         line-height: 0.8;
+        line-height: 1.1;
+    }
+    #divsub{
+        display: inline-block; 
+        margin-top: -18px;
+        margin-left: 120px;
     }
 
     #name,#email,#number{
@@ -182,12 +214,24 @@ p{
         display: block;
         width: 80%;
     
+    } 
+    #foot{
+        text-align: center; 
+        background-color: #1E90FF; 
+        width: 105%;
+        margin-top:40px;
+        height:30px;
+        font-size: 10px;
+        
+    
     }
-    
-    
-    
-    
+    body{
+        height:1390px;
     }
+
+    
+    
+}
 
 @media screen and (max-width:600px) {
     #survey-form{
